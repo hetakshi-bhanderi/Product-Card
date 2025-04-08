@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: #f4ebe8;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 50px;
+    border: 7px;
+    justify-content: center;
+    text-align: center;
+}
+
+ .product img{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+ }
+.wrapper .product{
+    background-color: bisque;
+    height: 530px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(219, 212, 212, 0.546);
+}
+
+@media (max-width:400px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .btn{
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
